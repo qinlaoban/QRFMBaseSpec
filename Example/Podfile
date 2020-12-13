@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'QRFMBase_Example' do
+  pod 'QRFMBase', :path => '../'
+
+  target 'QRFMBase_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
