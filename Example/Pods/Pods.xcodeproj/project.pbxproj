@@ -1,0 +1,790 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C4CED0F088C16088DD6F4E1D9F3F7F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		32F618E37EB4BBC281384E01259955CB /* Pods-QRFMBase_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 775577A4359C28BE837999B28CEEACFD /* Pods-QRFMBase_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		65780EE9DFFFCDE942BDFF8F894C53F7 /* UIImage+XMGImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A0FC1F2A62FED602D41FC9EBB057C83 /* UIImage+XMGImage.m */; };
+		6B88806D8D9CCCF081C06EDBF3B135E3 /* UIView+XMGLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = C31B9A4649BDED9DD80CD7E1338FEF7A /* UIView+XMGLayout.m */; };
+		78515A19477AE7B16BD84EE0012DAA38 /* Pods-QRFMBase_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C3DF1EFF9131A250C7EE7011C3E9BFFB /* Pods-QRFMBase_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B6CEAFCB356E2FB641A2B8341F1FAF3 /* CALayer+PauseAimate.h in Headers */ = {isa = PBXBuildFile; fileRef = D2C81C95F31D40A7FEEF347C6CC2C4CB /* CALayer+PauseAimate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A963B1114AA5589454F44690E4AF1F7F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		ADE7507CF66E2A73830662B2087D6252 /* Pods-QRFMBase_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BB56E55C95775623F9362B0EC00233D6 /* Pods-QRFMBase_Example-dummy.m */; };
+		BCE6EA31A238CB42FC01CD0791600877 /* CALayer+PauseAimate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B2BDF9AB049F189BC018A1A6D0CBF1B /* CALayer+PauseAimate.m */; };
+		BFE95C165D2C343C9FBCC487D282640E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		CAEAFAAE5CD286F050A08D640C07105C /* QRFMBase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B69EE6F6677A3E06350965CB38A895E3 /* QRFMBase-dummy.m */; };
+		CB60C004C7444D6C484BAB9305950F30 /* Pods-QRFMBase_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF4D06FB1FD608F99EFD9EFDE8D3080 /* Pods-QRFMBase_Tests-dummy.m */; };
+		CFF1592B2CD4E1D33772516A14308ABC /* UIView+XMGLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AF97EFA8D2B4E44BC3517BC7AD4CED6 /* UIView+XMGLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D72AAFF91E17B24A31A41F3332F6A155 /* UIImage+XMGImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 559B59D5524452673CE730B395B3D683 /* UIImage+XMGImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E1DD43BF72B96237876CC50FF343834D /* QRFMBase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0BF4980B2CBC9869770B31575B927C /* QRFMBase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5AD09E2A86D58AF37821872AEDDCD235 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3738BF810E77060B8DED99BF70FAE9D0;
+			remoteInfo = QRFMBase;
+		};
+		CF9095912EE8EF4A45014C2E62CD4A07 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF3CAE9479F6479BA42634DC15C24D56;
+			remoteInfo = "Pods-QRFMBase_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D0BF4980B2CBC9869770B31575B927C /* QRFMBase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QRFMBase-umbrella.h"; sourceTree = "<group>"; };
+		11FDB8A069EFADC8615F4FC280E9A324 /* QRFMBase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = QRFMBase.modulemap; sourceTree = "<group>"; };
+		1FF4D06FB1FD608F99EFD9EFDE8D3080 /* Pods-QRFMBase_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QRFMBase_Tests-dummy.m"; sourceTree = "<group>"; };
+		2A549C1A7BCE1D16F349AD27624519FA /* Pods-QRFMBase_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QRFMBase_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		33CEA857370449A77F82415C958CD47D /* Pods-QRFMBase_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QRFMBase_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		33F0DAD247E0DA60AA2BF15E820CB6D1 /* Pods-QRFMBase_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QRFMBase_Example-Info.plist"; sourceTree = "<group>"; };
+		3A0FC1F2A62FED602D41FC9EBB057C83 /* UIImage+XMGImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+XMGImage.m"; path = "QRFMBase/Classes/Category/UIImage+XMGImage.m"; sourceTree = "<group>"; };
+		3AA25D03FCB1B8AFB798CF0B29DEF04A /* Pods-QRFMBase_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QRFMBase_Example-frameworks.sh"; sourceTree = "<group>"; };
+		3CCBAB5F5B9FECDF1FDB37434F7D7E71 /* Pods-QRFMBase_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QRFMBase_Tests.modulemap"; sourceTree = "<group>"; };
+		44C2D0233960573D4AFE1BF87D2DF1A3 /* Pods-QRFMBase_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QRFMBase_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		559B59D5524452673CE730B395B3D683 /* UIImage+XMGImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+XMGImage.h"; path = "QRFMBase/Classes/Category/UIImage+XMGImage.h"; sourceTree = "<group>"; };
+		5AF97EFA8D2B4E44BC3517BC7AD4CED6 /* UIView+XMGLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+XMGLayout.h"; path = "QRFMBase/Classes/Category/UIView+XMGLayout.h"; sourceTree = "<group>"; };
+		61E6F438B663DFB965C3AB7309F49BF6 /* QRFMBase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QRFMBase-prefix.pch"; sourceTree = "<group>"; };
+		62B7DB6306A774634FC2A73A7CB22713 /* Pods_QRFMBase_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_QRFMBase_Tests.framework; path = "Pods-QRFMBase_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		674A2333A9D44C4CFAF5BCE82A420E57 /* Pods-QRFMBase_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QRFMBase_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		775577A4359C28BE837999B28CEEACFD /* Pods-QRFMBase_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QRFMBase_Tests-umbrella.h"; sourceTree = "<group>"; };
+		7B2BDF9AB049F189BC018A1A6D0CBF1B /* CALayer+PauseAimate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CALayer+PauseAimate.m"; path = "QRFMBase/Classes/Category/CALayer+PauseAimate.m"; sourceTree = "<group>"; };
+		8CDA8E1EEA79036861CA08B6BC1E2899 /* Pods_QRFMBase_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_QRFMBase_Example.framework; path = "Pods-QRFMBase_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9350EBF916DE6D0167009BAFC44AADA1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		95D92DB6CC973D76D2827CAF4EAB8962 /* Pods-QRFMBase_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QRFMBase_Example.modulemap"; sourceTree = "<group>"; };
+		9B22D42FEA3AB415AB8C20252529AF3F /* QRFMBase.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = QRFMBase.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E2E181A3724270F254FD44CFF68BF6B /* QRFMBase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QRFMBase.release.xcconfig; sourceTree = "<group>"; };
+		A0B29295FDDD20D1E921C0280A0B43ED /* Pods-QRFMBase_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QRFMBase_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		B4F745F14F53691BDDA9743DB0F77A28 /* Pods-QRFMBase_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QRFMBase_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B69EE6F6677A3E06350965CB38A895E3 /* QRFMBase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QRFMBase-dummy.m"; sourceTree = "<group>"; };
+		BB56E55C95775623F9362B0EC00233D6 /* Pods-QRFMBase_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QRFMBase_Example-dummy.m"; sourceTree = "<group>"; };
+		BCD6063A3AE8C442B368CF18FE6D71B6 /* QRFMBase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = QRFMBase.framework; path = QRFMBase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE9D882373FD7D0C5B9D6507FF94BA84 /* Pods-QRFMBase_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QRFMBase_Tests-Info.plist"; sourceTree = "<group>"; };
+		C31B9A4649BDED9DD80CD7E1338FEF7A /* UIView+XMGLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+XMGLayout.m"; path = "QRFMBase/Classes/Category/UIView+XMGLayout.m"; sourceTree = "<group>"; };
+		C3DF1EFF9131A250C7EE7011C3E9BFFB /* Pods-QRFMBase_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QRFMBase_Example-umbrella.h"; sourceTree = "<group>"; };
+		CA6928A5D671BCB8F42569D29DB90308 /* QRFMBase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QRFMBase.debug.xcconfig; sourceTree = "<group>"; };
+		D2C81C95F31D40A7FEEF347C6CC2C4CB /* CALayer+PauseAimate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CALayer+PauseAimate.h"; path = "QRFMBase/Classes/Category/CALayer+PauseAimate.h"; sourceTree = "<group>"; };
+		D8CC6A2535C41BF938364514166C75A2 /* Pods-QRFMBase_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QRFMBase_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		FCF3EFED9E873B979DD9210F4A09C43D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		FE98442C66E6951740F3CB897311251F /* Pods-QRFMBase_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QRFMBase_Example.release.xcconfig"; sourceTree = "<group>"; };
+		FFADDE69D7804970244967BD37D3DB65 /* QRFMBase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "QRFMBase-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		15C101C454C7BEEF35552610335CD70C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C4CED0F088C16088DD6F4E1D9F3F7F1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		921D95190B9054B44A65215B7AB4FC72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A963B1114AA5589454F44690E4AF1F7F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF9CD1682F976A681F256B6BAF053718 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFE95C165D2C343C9FBCC487D282640E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2FD4ECF9FB082296D4F07ED815029270 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CF787E41410CC998989D475BA3C0B046 /* QRFMBase */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		34C1BEB60BB6739F1F491859AB6F91E5 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				FCF3EFED9E873B979DD9210F4A09C43D /* LICENSE */,
+				9B22D42FEA3AB415AB8C20252529AF3F /* QRFMBase.podspec */,
+				9350EBF916DE6D0167009BAFC44AADA1 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		562DFC5939822308C4F6E4546A214202 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8CDA8E1EEA79036861CA08B6BC1E2899 /* Pods_QRFMBase_Example.framework */,
+				62B7DB6306A774634FC2A73A7CB22713 /* Pods_QRFMBase_Tests.framework */,
+				BCD6063A3AE8C442B368CF18FE6D71B6 /* QRFMBase.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		8C0241250F32F3F67E5944FAC552822B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				11FDB8A069EFADC8615F4FC280E9A324 /* QRFMBase.modulemap */,
+				B69EE6F6677A3E06350965CB38A895E3 /* QRFMBase-dummy.m */,
+				FFADDE69D7804970244967BD37D3DB65 /* QRFMBase-Info.plist */,
+				61E6F438B663DFB965C3AB7309F49BF6 /* QRFMBase-prefix.pch */,
+				0D0BF4980B2CBC9869770B31575B927C /* QRFMBase-umbrella.h */,
+				CA6928A5D671BCB8F42569D29DB90308 /* QRFMBase.debug.xcconfig */,
+				9E2E181A3724270F254FD44CFF68BF6B /* QRFMBase.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/QRFMBase";
+			sourceTree = "<group>";
+		};
+		B5170F15D15E5837CBC86CF6F8281616 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DE076D15BA9F4F88A92F9166ADC76717 /* Pods-QRFMBase_Example */,
+				B9A127CD85ED4686E9E956754F6ADB25 /* Pods-QRFMBase_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B9A127CD85ED4686E9E956754F6ADB25 /* Pods-QRFMBase_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3CCBAB5F5B9FECDF1FDB37434F7D7E71 /* Pods-QRFMBase_Tests.modulemap */,
+				2A549C1A7BCE1D16F349AD27624519FA /* Pods-QRFMBase_Tests-acknowledgements.markdown */,
+				B4F745F14F53691BDDA9743DB0F77A28 /* Pods-QRFMBase_Tests-acknowledgements.plist */,
+				1FF4D06FB1FD608F99EFD9EFDE8D3080 /* Pods-QRFMBase_Tests-dummy.m */,
+				BE9D882373FD7D0C5B9D6507FF94BA84 /* Pods-QRFMBase_Tests-Info.plist */,
+				775577A4359C28BE837999B28CEEACFD /* Pods-QRFMBase_Tests-umbrella.h */,
+				D8CC6A2535C41BF938364514166C75A2 /* Pods-QRFMBase_Tests.debug.xcconfig */,
+				44C2D0233960573D4AFE1BF87D2DF1A3 /* Pods-QRFMBase_Tests.release.xcconfig */,
+			);
+			name = "Pods-QRFMBase_Tests";
+			path = "Target Support Files/Pods-QRFMBase_Tests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				2FD4ECF9FB082296D4F07ED815029270 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				562DFC5939822308C4F6E4546A214202 /* Products */,
+				B5170F15D15E5837CBC86CF6F8281616 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		CF787E41410CC998989D475BA3C0B046 /* QRFMBase */ = {
+			isa = PBXGroup;
+			children = (
+				D2C81C95F31D40A7FEEF347C6CC2C4CB /* CALayer+PauseAimate.h */,
+				7B2BDF9AB049F189BC018A1A6D0CBF1B /* CALayer+PauseAimate.m */,
+				559B59D5524452673CE730B395B3D683 /* UIImage+XMGImage.h */,
+				3A0FC1F2A62FED602D41FC9EBB057C83 /* UIImage+XMGImage.m */,
+				5AF97EFA8D2B4E44BC3517BC7AD4CED6 /* UIView+XMGLayout.h */,
+				C31B9A4649BDED9DD80CD7E1338FEF7A /* UIView+XMGLayout.m */,
+				34C1BEB60BB6739F1F491859AB6F91E5 /* Pod */,
+				8C0241250F32F3F67E5944FAC552822B /* Support Files */,
+			);
+			name = QRFMBase;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DE076D15BA9F4F88A92F9166ADC76717 /* Pods-QRFMBase_Example */ = {
+			isa = PBXGroup;
+			children = (
+				95D92DB6CC973D76D2827CAF4EAB8962 /* Pods-QRFMBase_Example.modulemap */,
+				674A2333A9D44C4CFAF5BCE82A420E57 /* Pods-QRFMBase_Example-acknowledgements.markdown */,
+				33CEA857370449A77F82415C958CD47D /* Pods-QRFMBase_Example-acknowledgements.plist */,
+				BB56E55C95775623F9362B0EC00233D6 /* Pods-QRFMBase_Example-dummy.m */,
+				3AA25D03FCB1B8AFB798CF0B29DEF04A /* Pods-QRFMBase_Example-frameworks.sh */,
+				33F0DAD247E0DA60AA2BF15E820CB6D1 /* Pods-QRFMBase_Example-Info.plist */,
+				C3DF1EFF9131A250C7EE7011C3E9BFFB /* Pods-QRFMBase_Example-umbrella.h */,
+				A0B29295FDDD20D1E921C0280A0B43ED /* Pods-QRFMBase_Example.debug.xcconfig */,
+				FE98442C66E6951740F3CB897311251F /* Pods-QRFMBase_Example.release.xcconfig */,
+			);
+			name = "Pods-QRFMBase_Example";
+			path = "Target Support Files/Pods-QRFMBase_Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1835571B2F744415475F025ED4CD08E2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B6CEAFCB356E2FB641A2B8341F1FAF3 /* CALayer+PauseAimate.h in Headers */,
+				E1DD43BF72B96237876CC50FF343834D /* QRFMBase-umbrella.h in Headers */,
+				D72AAFF91E17B24A31A41F3332F6A155 /* UIImage+XMGImage.h in Headers */,
+				CFF1592B2CD4E1D33772516A14308ABC /* UIView+XMGLayout.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B8F628064F913830DF2968CF23523D2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32F618E37EB4BBC281384E01259955CB /* Pods-QRFMBase_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E047A5622CEE6799EE7BA21030999182 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78515A19477AE7B16BD84EE0012DAA38 /* Pods-QRFMBase_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		179DB8111E70D447B2991F76B76C4D02 /* Pods-QRFMBase_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC219D66CF1AF77AB29D898247F22C6D /* Build configuration list for PBXNativeTarget "Pods-QRFMBase_Tests" */;
+			buildPhases = (
+				4B8F628064F913830DF2968CF23523D2 /* Headers */,
+				13AC52D4290BB6C263FB5381628973E9 /* Sources */,
+				921D95190B9054B44A65215B7AB4FC72 /* Frameworks */,
+				BFA9B5BE50FFCBC9BC9C7B689FE13A48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				763358D5E81D57A5BB1D29387DEDE88D /* PBXTargetDependency */,
+			);
+			name = "Pods-QRFMBase_Tests";
+			productName = "Pods-QRFMBase_Tests";
+			productReference = 62B7DB6306A774634FC2A73A7CB22713 /* Pods_QRFMBase_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3738BF810E77060B8DED99BF70FAE9D0 /* QRFMBase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55405A88503AC3F83F2B3A11E7271AA0 /* Build configuration list for PBXNativeTarget "QRFMBase" */;
+			buildPhases = (
+				1835571B2F744415475F025ED4CD08E2 /* Headers */,
+				E16CE6E2BA4948F299BCFA613C718F18 /* Sources */,
+				DF9CD1682F976A681F256B6BAF053718 /* Frameworks */,
+				1A8CFBBC1A05A1CA1747813A6255F0DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QRFMBase;
+			productName = QRFMBase;
+			productReference = BCD6063A3AE8C442B368CF18FE6D71B6 /* QRFMBase.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BF3CAE9479F6479BA42634DC15C24D56 /* Pods-QRFMBase_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1644FEB1FC4DAEA233B046E428421CCD /* Build configuration list for PBXNativeTarget "Pods-QRFMBase_Example" */;
+			buildPhases = (
+				E047A5622CEE6799EE7BA21030999182 /* Headers */,
+				9EC09F4A21FA08B1BD2BC857AF5DC55E /* Sources */,
+				15C101C454C7BEEF35552610335CD70C /* Frameworks */,
+				AEDF0B7033F5F47314C5E94167486054 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				270F6FCA93E252F51A96B07105165FFF /* PBXTargetDependency */,
+			);
+			name = "Pods-QRFMBase_Example";
+			productName = "Pods-QRFMBase_Example";
+			productReference = 8CDA8E1EEA79036861CA08B6BC1E2899 /* Pods_QRFMBase_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 562DFC5939822308C4F6E4546A214202 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF3CAE9479F6479BA42634DC15C24D56 /* Pods-QRFMBase_Example */,
+				179DB8111E70D447B2991F76B76C4D02 /* Pods-QRFMBase_Tests */,
+				3738BF810E77060B8DED99BF70FAE9D0 /* QRFMBase */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A8CFBBC1A05A1CA1747813A6255F0DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEDF0B7033F5F47314C5E94167486054 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFA9B5BE50FFCBC9BC9C7B689FE13A48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13AC52D4290BB6C263FB5381628973E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB60C004C7444D6C484BAB9305950F30 /* Pods-QRFMBase_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EC09F4A21FA08B1BD2BC857AF5DC55E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADE7507CF66E2A73830662B2087D6252 /* Pods-QRFMBase_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E16CE6E2BA4948F299BCFA613C718F18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCE6EA31A238CB42FC01CD0791600877 /* CALayer+PauseAimate.m in Sources */,
+				CAEAFAAE5CD286F050A08D640C07105C /* QRFMBase-dummy.m in Sources */,
+				65780EE9DFFFCDE942BDFF8F894C53F7 /* UIImage+XMGImage.m in Sources */,
+				6B88806D8D9CCCF081C06EDBF3B135E3 /* UIView+XMGLayout.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		270F6FCA93E252F51A96B07105165FFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = QRFMBase;
+			target = 3738BF810E77060B8DED99BF70FAE9D0 /* QRFMBase */;
+			targetProxy = 5AD09E2A86D58AF37821872AEDDCD235 /* PBXContainerItemProxy */;
+		};
+		763358D5E81D57A5BB1D29387DEDE88D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-QRFMBase_Example";
+			target = BF3CAE9479F6479BA42634DC15C24D56 /* Pods-QRFMBase_Example */;
+			targetProxy = CF9095912EE8EF4A45014C2E62CD4A07 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		723626FE2C1C7833C43A76DBDDBA3193 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE98442C66E6951740F3CB897311251F /* Pods-QRFMBase_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QRFMBase_Example/Pods-QRFMBase_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QRFMBase_Example/Pods-QRFMBase_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		745A00D717C7BD3445DD9C9873504E7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8CC6A2535C41BF938364514166C75A2 /* Pods-QRFMBase_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QRFMBase_Tests/Pods-QRFMBase_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QRFMBase_Tests/Pods-QRFMBase_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		74B2AD18FCDE2E3DF8C24066CF47E54A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44C2D0233960573D4AFE1BF87D2DF1A3 /* Pods-QRFMBase_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QRFMBase_Tests/Pods-QRFMBase_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QRFMBase_Tests/Pods-QRFMBase_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B2805132C2D3B6762A2773A8299C838B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E2E181A3724270F254FD44CFF68BF6B /* QRFMBase.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/QRFMBase/QRFMBase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QRFMBase/QRFMBase-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/QRFMBase/QRFMBase.modulemap";
+				PRODUCT_MODULE_NAME = QRFMBase;
+				PRODUCT_NAME = QRFMBase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B91617D0B7F51BFECFB694EE82CD6861 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0B29295FDDD20D1E921C0280A0B43ED /* Pods-QRFMBase_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QRFMBase_Example/Pods-QRFMBase_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QRFMBase_Example/Pods-QRFMBase_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		F7E5D2D6957A33EC7B19E4471C81DDF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA6928A5D671BCB8F42569D29DB90308 /* QRFMBase.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/QRFMBase/QRFMBase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QRFMBase/QRFMBase-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/QRFMBase/QRFMBase.modulemap";
+				PRODUCT_MODULE_NAME = QRFMBase;
+				PRODUCT_NAME = QRFMBase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1644FEB1FC4DAEA233B046E428421CCD /* Build configuration list for PBXNativeTarget "Pods-QRFMBase_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B91617D0B7F51BFECFB694EE82CD6861 /* Debug */,
+				723626FE2C1C7833C43A76DBDDBA3193 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55405A88503AC3F83F2B3A11E7271AA0 /* Build configuration list for PBXNativeTarget "QRFMBase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7E5D2D6957A33EC7B19E4471C81DDF2 /* Debug */,
+				B2805132C2D3B6762A2773A8299C838B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC219D66CF1AF77AB29D898247F22C6D /* Build configuration list for PBXNativeTarget "Pods-QRFMBase_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				745A00D717C7BD3445DD9C9873504E7C /* Debug */,
+				74B2AD18FCDE2E3DF8C24066CF47E54A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

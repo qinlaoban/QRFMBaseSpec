@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'QRFMBase'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of QRFMBase.'
+  s.summary          = 'QRFMBase 基础库'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,14 +18,14 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+TODO:包含了基础配置，分类、宏等
                        DESC
 
   s.homepage         = 'https://github.com/qinlaoban/QRFMBase'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'qinlaoban' => '827797170@qq.com' }
-  s.source           = { :git => 'https://github.com/qinlaoban/QRFMBase.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/qinlaoban/QRFMBaseSpec.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'

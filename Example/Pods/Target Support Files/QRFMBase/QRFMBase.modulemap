@@ -1,0 +1,6 @@
+framework module QRFMBase {
+  umbrella header "QRFMBase-umbrella.h"
+
+  export *
+  module * { export * }
+}
